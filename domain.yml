@@ -1,0 +1,102 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - satu
+  - dua
+  - tiga
+  - empat
+  - lima
+  - enam
+  - tujuh
+  - delapan
+  - sembilan
+  - sepuluh
+
+responses:
+  utter_greet:
+  - text: "Halo, Selamat datang di Chatbot Stunting"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Silahkan bertanya"
+
+  utter_goodbye:
+  - text: "Terima kasih, sampai jumpa"
+
+  utter_iamabot:
+  - text: "Ya, saya bot yang diciptakan oleh Asania Fatma Cahyawati (20.01.53.0031)."
+
+  utter_satu:
+  - text: "Stunting adalah keadaan pendek yang khas disebabkan oleh gangguan nutrisi, infeksi berulang yang tidak tertangani dalam jangka waktu yang lama."
+
+  utter_dua:
+  - text: "Nutrisi untuk anak di atas 2 tahun mengikuti aturan “my plate” terdiri dari ¼ sayuran, ¼ buah, ¼ karbohidrat (grain) dan ¼ protein. 
+\n\nPilih protein hewani dan berbagai jenis sayuran berwarna-warni."
+
+  utter_tiga:
+  - text: "Ada dua masalah akibat stunting yaitu pertumbuhan otak dan tinggi badan. 
+\n\nPertumbuhan otak sangat pesat terjadi pada 2 tahun pertama sehingga setelah usia 2 tahun, tidak bisa diperbaiki. 
+\n\nTinggi badan masih bisa diperbaiki dengan berharap pada fase pubertas. 
+\n\nOleh karena itu JANGAN mengobati stunting tapi lakukanlah PENCEGAHAN. 
+\n\nPeriode emas yang masih bisa memperbaiki stunting adalah sebelum usia 2 tahun, 
+\n\ndan hasilnya pun tidak bisa kembali sempurna, artinya bisa diperbaiki namun optimal."
+
+  utter_empat:
+  - text: "Stunting dapat dicegah dengan pemberian nutrisi yang tepat. 
+\n\nNutrisi pembangun tumbuh adalah makronutrien yang terdiri dari Karbohidrat, protein dan lemak. 
+\n\nSedangkan vitamin dan mineral merupakan mikronutrien yang merupakan zat pendukung, bukan pembangun. 
+\n\nVitamin dan mineral terbaik berasal dari makanan, bukan dari apotek. 
+\n\nTidak ada vitamin dan suplemen pencegah stunting."
+
+  utter_lima:
+  - text: "Sayangnya tidak ada cara yang cepat, namun ada cara yang mudah yang harus dilakukan bertahun-tahun. 
+\n\nPencegahan stunting adalah perjalanan yang cukup panjang dari mempersiapkan remaja putri sebelum 
+\n\nmenempuh kehamilan, perencanaan keluarga dan kehamilan yang matang, menjaga kehamilan yang sehat, nutrisi 
+\n\nsaat hamil dan menyusui, manajemen laktasi yang baik, manajemen MPASI yang adekuat, 
+\n\nmencegah penyakit dengan imunisasi yang LENGKAP dan pemantauan pertumbuhan anak terus-menerus. 
+\n\nJadi tidak ada cara cepat."
+
+  utter_enam:
+  - text: "Saat usia 6-12 bulan, ada dua manajemen nutrisi yang harus dievaluasi yaitu:
+\n\nApakah ASI cukup?
+\n\nApakah kuantitas dan kualitas MPASI cukup?
+\n\nPemberian sufor hanya dilakukan jika ASI tidak cukup.
+\n\nPemberian ASI pada masa MPASI tetap dominan mencapai 120 ml x Berat badan perharinya."
+
+  utter_tujuh:
+  - text: "Pertumbuhan bayi prematur dipantau menggunakan kurva Fenton sampai usia koreksi 10 minggu, kemudian 
+\n\npindah ke kurva WHO. Sedangkan perkembangan (verbal, motoric halus dan kasar) menggunakan usia koreksi 
+\n\nsampai usia 2 tahun, lalu dianggap sama dengan anak lain yang seusianya."
+
+  utter_delapan:
+  - text: "BUKAN, stunting adalah ukuran tinggi badan yaitu pendek dibandingkan dengan anak seusianya. Stunting 
+\n\ndisebabkan oleh malnutrisi yang berlangsung lama, oleh karena itu berat badan yang tidak naik merupakan awal 
+\n\nmenuju kepada stunting, ayo segera diperbaiki."
+
+  utter_sembilan:
+  - text: "Remaja putri (terutama yang sudah haid) dianjurkan mengkonsumsi suplemen besi tiap minggu. Pada anak di atas 
+\n\n1 tahun, dianjurkan pemeriksaan zat besi darah sebelum memutuskan pemberian suplemen zat besi. Pemeriksaan 
+\n\nzat besi meliputi darah lengkap, serum besi, TIBC dan ferritin."
+
+  utter_sepuluh:
+  - text: "Pada bayi dengan ASI eksklusif dianjurkan pemberian zat besi usia 4-6 bulan 
+\n\n(tanpa pemeriksaan lab terlebih dahulu), untuk bayi prematur diberikan zat besi sejak usia 1 bulan, 
+\n\nlalu setelah usia 6 bulan dianjurkan 
+\n\nmendapatkan asupan tinggi zat besi dari MPASI (tinggi protein hewani)."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
